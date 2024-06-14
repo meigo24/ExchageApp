@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange App</title>
+    <link rel="stylesheet" href="exchange.css">
+</head>
+<body>
+    <div class="exchange-container">
+        <h1 class="app-title">Exchange App</h1>
+        <input type="number" id="base-input" value="1">
+        <select id="base-currency"></select>
+        <select id="target-currency"></select>
+        <button id="convert-btn">Convertir</button>
+        <div id="rate-container">
+            <p id="rate-value">Tasa de cambio:</p>
+        </div>
+        <div id="result-container">
+            <p id="result-value">0</p>
+        </div>
+    </div>
+    <script src="exchange.js"></script>
+</body>
+</html>

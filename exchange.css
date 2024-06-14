@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    margin: 0;
+    background: #eae8eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.exchange-container {
+    max-width: 360px;
+    background-color: #f3eff1;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 10px, 20px rgb(red, green, blue);
+}
+
+.result,
+.target {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #d2d8d7;
+    background-color: rgba(red, green, blue, alpha);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button {
+    width: calc(25% - 10px);
+    height: 50px;
+    font-size: 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    float: left;
+    background-color: rgb(247, 114, 176);
+    color: #f5f8f3;
+    -webkit-box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px -1px 30px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#ac {
+    color: #343036;
+}
+
+#igual {
+    width: calc(50% - 10px);
+}
